@@ -6,7 +6,7 @@ class SiteControllers {
             const courses = await Course.find({});
             res.json(courses);
         } catch (err) {
-            res.status(400).json({ error: 'ERROR!@!@!' });
+            res.status(400).json({ error: 'ERROR!!!!' });
         }
 
         // Course.find({}, (err, courses) => {
